@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "type": "module",
+    "preview": "vite preview",
+    "backup": "node scripts/bcli-backup.mjs"
   },
   "dependencies": {
     "react": "^18.0.0",
